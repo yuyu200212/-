@@ -4,7 +4,7 @@
     <Navbar></Navbar>
   </el-header>
   <el-container>
-    <el-aside :width="isCollapse==true?'64px':'200px'">
+    <el-aside :width="isCollapse==true?'4rem':'12.5rem'">
         <CollTop></CollTop>
         <siderbar class="sidebar-container"></siderbar>
     </el-aside>

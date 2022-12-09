@@ -96,7 +96,7 @@ import Page from '@/components/page.vue'
     export default {
     data() {
         return {
-            formLabelWidth: "120px",
+            formLabelWidth: "7.5rem",
             cateProps: {
                 expandTrigger: "hover",
                 checkStrictly: true,
@@ -190,6 +190,6 @@ import Page from '@/components/page.vue'
 
 <style lang="less" scoped>
 .card{
-    margin-top: 15px
+    margin-top: .9375rem
 }
 </style>

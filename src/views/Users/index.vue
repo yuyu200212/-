@@ -99,22 +99,22 @@
          @submitFn="submit"
          >
            <template #formItem="{row}">
-              <el-form-item prop="username" label="用户名" label-width="80px">
+              <el-form-item prop="username" label="用户名" label-width="5rem">
                 <el-input 
                 :disabled="Boolean(row.formData.id)"
                 v-model="row.formData.username" 
                 autocomplete="off"></el-input>
               </el-form-item>
-              <el-form-item   v-if="row.isAdd" prop="password" label="密码"  label-width="80px">
+              <el-form-item   v-if="row.isAdd" prop="password" label="密码"  label-width="5rem">
                 <el-input 
                 v-model="row.formData.password" 
                 autocomplete="off"
                 ></el-input>
               </el-form-item>
-              <el-form-item prop="email" label="邮箱" label-width="80px">
+              <el-form-item prop="email" label="邮箱" label-width="5rem">
                 <el-input v-model="row.formData.email" autocomplete="off"></el-input>
               </el-form-item>
-              <el-form-item prop="mobile" label="手机" label-width="80px">
+              <el-form-item prop="mobile" label="手机" label-width="5rem">
                 <el-input v-model="row.formData.mobile" autocomplete="off"></el-input>
               </el-form-item>
 
@@ -173,7 +173,7 @@ export default {
             // 添加
             addVisible: false,
             // 表单域标签的宽度
-            formLabelWidth: "120px",
+            formLabelWidth: "7.5rem",
             addObj: {
                 username: "",
                 password: "",
@@ -335,7 +335,7 @@ export default {
 
 <style lang="less" scoped>
 .cardlist {
-  margin-top: 15px;
+  margin-top: .9375rem;
 }
 
 //

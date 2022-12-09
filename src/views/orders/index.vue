@@ -8,7 +8,7 @@
         <el-card class="card">
           <div>
             <el-col :span="8">
-            <el-input placeholder="请输入内容" v-model="order.query" class="input-with-select" width="300px">
+            <el-input placeholder="请输入内容" v-model="order.query" class="input-with-select" width="18.75rem">
             <el-button slot="append" icon="el-icon-search" @click="getOrder"></el-button>
             </el-input>
            </el-col>
@@ -131,9 +131,9 @@ import cityOptions from '@/utils/city'
 
 <style lang="less" scoped>
 .card{
-    margin-top:20px;
+    margin-top:1.25rem;
 }
 .table{
-    margin-top:55px;
+    margin-top:3.4375rem;
 }
 </style>

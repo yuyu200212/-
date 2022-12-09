@@ -1,6 +1,11 @@
 const { defineConfig } = require('@vue/cli-service')
 const port = process.env.port || process.env.npm_config_port || 9528
+const px2rem = require('postcss-px2rem')
+const postcss = px2rem({
+  remUnit: 16
+})
 module.exports = defineConfig({
+  
   devServer:{
        port: port,
         //  代理配置 启动vuecli的服务，代理请求

@@ -52,6 +52,6 @@ import { getRight } from "@/api/right"
 
 <style lang="less" scoped>
 .box-card{
-    margin-top:15px
+    margin-top:.9375rem
 }
 </style>

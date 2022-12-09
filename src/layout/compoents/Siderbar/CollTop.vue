@@ -30,8 +30,8 @@ import { mapMutations } from 'vuex';
 
 <style lang="less" scoped>
 .sidebar-coll-container {
-  height: 40px;
-  line-height: 40px;
+  height: 2.5rem;
+  line-height: 2.5rem;
   color: #fff;
   text-align: center;
   background-color:#4a5064;

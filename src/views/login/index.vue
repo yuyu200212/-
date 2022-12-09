@@ -112,20 +112,20 @@ import {mapActions} from 'vuex'
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 430px;
-    height: 250px;
+    width: 26.875rem;
+    height: 15.625rem;
     background: #fff;
-    border-radius: 3px;
+    border-radius: .1875rem;
     .logo-wrapper {
       position: absolute;
       left: 50%;
       transform: translate(-50%, -50%);
-      padding: 15px;
-      width: 150px;
-      height: 150px;
+      padding: .9375rem;
+      width: 9.375rem;
+      height: 9.375rem;
       background: #fff;
       border-radius: 50%;
-      box-shadow: 0 0 10px #ddd;
+      box-shadow: 0 0 .625rem #ddd;
       overflow: hidden;
       box-sizing: border-box;
       img {
@@ -136,7 +136,7 @@ import {mapActions} from 'vuex'
       }
     }
     .el-form {
-      padding: 0 15px;
+      padding: 0 .9375rem;
       position: absolute;
       bottom: 0;
       width: 100%;

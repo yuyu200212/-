@@ -2,9 +2,11 @@
      <div class="navbar">
     <div class="logo">
       <img src="@/assets/common/logo.png" alt="" />
-      <p>电商后台管理系统</p>
+      <p>后台管理系统</p>
     </div>
     <el-button type="info" @click="loginEsc" >退出</el-button>
+
+    
   </div>
 
 </template>
@@ -18,8 +20,12 @@ const {mapActions} = createNamespacedHelpers('user')
         loginEsc(){
           this.loginOut()
           this.$router.push('/login')
+        },
+        change(){
+          console.log(123)
+          document.getElementById('app').setAttribute('class', 'theme_red')
         }
-
+      
       }
       
     }
@@ -35,13 +41,13 @@ const {mapActions} = createNamespacedHelpers('user')
     display: flex;
     align-items: center;
     img {
-      width: 61px;
-      height: 56px;
+      width: 3.8125rem;
+      height: 3.5rem;
       border-radius: 50%;
     }
     p {
-      margin-left: 10px;
-      font-size: 20px;
+      margin-left: .625rem;
+      font-size: 1.25rem;
       color: #fff;
     }
   }

@@ -134,7 +134,7 @@ import {getKeys} from '@/utils/get'
                     roleName:[{required:true,message:'请输入角色名',trigger:'blur'}],
                     roleDesc:[{required:true,message:'请输入角色描述',trigger:'blur'}],
                 },
-                formLabelWidth:'120px',
+                formLabelWidth:'7.5rem',
                roles:[],
                addRoles:false,
             //    分配权限
@@ -267,22 +267,22 @@ import {getKeys} from '@/utils/get'
 
 <style lang="less" scoped>
 .card{
-    margin-top: 25px
+    margin-top: 1.5625rem
 }
 .user-rights {
-  padding: 20px 50px;
+  padding: 1.25rem 3.125rem;
   box-sizing: border-box;
   .el-row {
     display: flex;
     align-items: center;
     &.btop {
-      border-top: 1px solid #eee;
+      border-top: .0625rem solid #eee;
     }
     &.bbottom {
-      border-bottom: 1px solid #eee;
+      border-bottom: .0625rem solid #eee;
     }
     .el-tag {
-      margin: 10px;
+      margin: .625rem;
     }
   }
 }

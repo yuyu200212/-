@@ -205,7 +205,7 @@ import {cateShops,addList,saveParams} from "@/api/goods"
 
 <style lang="less" scoped>
 .tag-input{
-    height: 15px;
-    width: 70px;
+    height: .9375rem;
+    width: 4.375rem;
 }
 </style>
